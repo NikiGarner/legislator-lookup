@@ -1,0 +1,19 @@
+<ul>
+  {{#each model as |bill|}}
+
+    <li>
+      <h4>Title:</h4>
+
+        {{bill.short_title}}
+
+      <br>
+      <h4>Bill id:</h4>
+      {{#link-to 'bills-by-id' bill.bill_id}}
+        {{bill.bill_id}}
+      {{/link-to}}
+      <br>
+      <h4>Bill number:</h4> {{bill.number}}
+    </li>
+
+  {{/each}}
+</ul>

@@ -1,0 +1,14 @@
+<ul>
+  {{#each model as |bill|}}
+  <li>
+    <h4>Title:{{bill.official_title}}</h4>
+    <br>
+    <h4>Bill id:</h4> {{bill.bill_id}}
+    <br>
+    <h4>Bill number:</h4> {{bill.number}}
+    <br>
+    <h4>Bill sponsor:</h4> {{bill.sponsor_id}}
+  </li>
+
+  {{/each}}
+</ul>

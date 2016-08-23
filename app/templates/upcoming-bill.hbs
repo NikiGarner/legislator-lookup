@@ -1,0 +1,12 @@
+<ul>
+  {{#each model as |bill|}}
+    <li>
+      <h4>Bill id:</h4> {{bill.bill_id}}
+      <br>
+      <h4>Chamber:</h4>{{bill.chamber}}
+      <br>
+      <h4>Date:</h4>{{bill.legislative_day}}
+    </li>
+
+  {{/each}}
+</ul>

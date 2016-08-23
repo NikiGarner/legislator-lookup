@@ -1,0 +1,10 @@
+<ul>
+  {{#each model as |committee|}}
+    <li><h4>Committee Name:</h4> {{committee.name}}
+      <br>
+      <h4>id:</h4> {{#link-to 'subcommittee' committee.committee_id}}{{committee.committee_id}}{{/link-to}}
+      {{committee.subcommittee}}
+    </li>
+
+  {{/each}}
+</ul>

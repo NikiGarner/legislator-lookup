@@ -1,5 +1,3 @@
-<h1>Legislator Lookup</h1>
-
 <form>
   <div class="form-group">
     <label for="zip">Zip</label>
@@ -7,4 +5,16 @@
   </div>
 
   <button class="btn btn-primary" {{action 'zipLookup'}}>Submit</button>
+
+  <div class="form-group">
+    <label for="chamber">chamber</label>
+    {{input value=chamber id="chamber"}}
+  </div>
+  <button class="btn btn-primary" {{action 'committeeLookup'}}>Submit</button>
+
+  <div class="form-group">
+    <label for="bill">Bills going to vote</label>
+    {{input value=bill id="bill"}}
+  </div>
+  <button class="btn btn-primary" {{action 'billLookup'}}>Submit</button>
 </form>

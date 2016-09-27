@@ -1,7 +1,6 @@
 # Legislator-lookup
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This was a project for the JavaScript course at Epicodus. The purpose of the project was to use Ember and to use an API to look up legislator information.
 
 ## Prerequisites
 
